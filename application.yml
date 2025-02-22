@@ -1,3 +1,5 @@
-internal:
-  api:
-    key: "PZ9p1rKcyUnSl8nMu6Me7lb0KqkXGBw/Kpu7dDHQ7jBVscpeXjiHkqb/ujyIrlBlnD/cS5jDnRaVakL8oyfC2A=="
+api:
+  auth-service:
+    url: http://localhost:8081
+  user-service:
+    url: http://localhost:8082
