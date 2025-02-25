@@ -1,4 +1,8 @@
 api:
+  config-server:
+    url: http://config-server:8888
+  gateway-service:
+    url: http://gateway-service:8080
   auth-service:
     url: http://auth-service:8081
   user-service:
