@@ -7,3 +7,10 @@ api:
     url: http://localhost:8081
   user-service:
     url: http://localhost:8082
+
+management:
+  zipkin:
+    tracing:
+      endpoint: http://localhost:9411
+loki:
+  uri: http://localhost:3100/loki/api/v1/push
