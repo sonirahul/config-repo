@@ -9,9 +9,11 @@ api:
     url: http://user-service:8082
 
 spring:
+  kafka:
+    bootstrap-servers: kafka:29092
   data:
     redis:
-      host: http://redis
+      host: redis
       port: 6379
 
 management:
