@@ -8,9 +8,16 @@ api:
   user-service:
     url: http://user-service:8082
 
+spring:
+  data:
+    redis:
+      host: http://redis
+      port: 6379
+
 management:
   zipkin:
     tracing:
       endpoint: ${MANAGEMENT_ZIPKIN_TRACING_ENDPOINT:http://tempo:9411}
+
 loki:
   uri: ${LOKI_URI:http://loki:3100/loki/api/v1/push}
